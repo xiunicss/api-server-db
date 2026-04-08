@@ -13,3 +13,26 @@
     package.json에 설정 <br/>
     "start": "nodemon index.js" <br/>
     실행 명령어 - npx nodemon index
+
+## DB 연결
+### mysql2 라이브러리 설치
+ - npm install mysql2
+
+ ### mysql DBMS 연결 설정
+  host: 'localhost',
+  user: 'root',
+  password: 'pw1234',
+  database: 'mydb'
+
+### rest api
+- 상품 조회: app.get()
+- 상품 등록: app.post()
+- 상품 수정: app.put()
+- 상품 삭제: app.delete()
+
+
+
+- errcode <br/>
+  500 - 코드오류 <br/>
+  404 - 페이지 없음 경로잘못 <br/>
+  200 - 정상
